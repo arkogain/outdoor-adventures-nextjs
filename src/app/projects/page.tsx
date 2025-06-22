@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Projects||outdoor-adventures-nextjs",
+  title: "Projects || outdoor-adventures-nextjs",
 };
 
 const page = () => {
