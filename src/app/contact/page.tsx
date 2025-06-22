@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Home || outdoor-adventures-nextjs",
+  title: "Contact || outdoor-adventures-nextjs",
 };
 
 const page = () => {

@@ -11,10 +11,12 @@ export const metadata: Metadata = {
   description: "outdoor-adventures-nextjs-description",
 };
 
-export default function RootLayout({ children }: RootLayoutProps) {
+const RootLayout = ({ children }: RootLayoutProps) => {
   return (
     <html lang="en">
       <body>{children}</body>
     </html>
   );
-}
+};
+
+export default RootLayout;
