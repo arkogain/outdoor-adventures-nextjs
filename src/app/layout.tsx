@@ -1,3 +1,4 @@
+import NavSwitch from "@/components/NavBars/NavSwitch";
 import type { Metadata } from "next";
 import { ReactNode } from "react";
 import "./globals.css";
@@ -14,7 +15,10 @@ export const metadata: Metadata = {
 const RootLayout = ({ children }: RootLayoutProps) => {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <NavSwitch />
+        <main>{children}</main>
+      </body>
     </html>
   );
 };
