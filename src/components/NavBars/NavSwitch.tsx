@@ -5,11 +5,11 @@ import MobileNav from "./MobileNav";
 
 const NavSwitch = () => {
   return (
-    <header className="sticky top-0 container mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+    <header className="absolute top-0 right-[50] left-[50] z-10 container mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
       {/*common logo  */}
       <Link href={"/"}>
         <Image
-          src={"/temporary-logo.png"}
+          src={"/logo.png"}
           alt="Logo"
           width={120}
           height={50}

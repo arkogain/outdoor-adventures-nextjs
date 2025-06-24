@@ -6,27 +6,27 @@ const DesktopNav = () => {
     <>
       <Link
         href={"/"}
-        className="hover:text-blue-500 dark:hover:text-fuchsia-500">
+        className="text-white hover:text-red-400">
         Home
       </Link>
       <Link
         href={"/about"}
-        className="hover:text-blue-500 dark:hover:text-fuchsia-500">
+        className="text-white hover:text-red-400">
         About
       </Link>
       <Link
         href={"/services"}
-        className="hover:text-blue-500 dark:hover:text-fuchsia-500">
+        className="text-white hover:text-red-400">
         Services
       </Link>
       <Link
         href={"/projects"}
-        className="hover:text-blue-500 dark:hover:text-fuchsia-500">
+        className="text-white hover:text-red-400">
         Projects
       </Link>
       <Link
         href={"/contact"}
-        className="hover:text-blue-500 dark:hover:text-fuchsia-500">
+        className="text-white hover:text-red-400">
         Contact
       </Link>
       <Link href={"#"}>
