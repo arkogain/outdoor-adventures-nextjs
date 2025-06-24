@@ -5,7 +5,13 @@ export const metadata: Metadata = {
 };
 
 const page = () => {
-  return <></>;
+  return (
+    <>
+      <div className="bg-[url('/services/services-bg.jpg')] py-[50%]">
+        <div className="">Services</div>
+      </div>
+    </>
+  );
 };
 
 export default page;
