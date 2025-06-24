@@ -5,7 +5,7 @@ import MobileNav from "./MobileNav";
 
 const NavSwitch = () => {
   return (
-    <header className="absolute top-0 right-[50] left-[50] z-10 container mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+    <header className="absolute top-0 left-1/2 z-10 container mx-auto flex max-w-7xl -translate-x-1/2 items-center justify-between px-6 py-4">
       {/*common logo  */}
       <Link href={"/"}>
         <Image

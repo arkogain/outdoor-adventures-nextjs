@@ -19,7 +19,7 @@ const RootLayout = ({ children }: RootLayoutProps) => {
       <body>
         <NavSwitch />
         <main>{children}</main>
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );
