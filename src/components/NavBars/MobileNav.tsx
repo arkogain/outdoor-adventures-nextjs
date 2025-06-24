@@ -1,14 +1,13 @@
 import { Menu } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
 } from "../ui/sheet";
-import Image from "next/image";
-import Link from "next/link";
 
 const MobileNav = () => {
   return (
