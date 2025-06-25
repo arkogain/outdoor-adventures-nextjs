@@ -1,4 +1,5 @@
 import Hero from "@/components/HomePage/Hero";
+import Quote from "@/components/HomePage/Quote";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -10,6 +11,9 @@ const page = () => {
     <>
       {/* Hero secion  */}
       <Hero />
+
+      {/* quotes section  */}
+      <Quote />
     </>
   );
 };
