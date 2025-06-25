@@ -1,3 +1,4 @@
+import ExploreSection from "@/components/HomePage/ExploreSection";
 import Hero from "@/components/HomePage/Hero";
 import Quote from "@/components/HomePage/Quote";
 import UpcomingSec from "@/components/HomePage/UpcomingsecUi/UpcomingSec";
@@ -18,6 +19,9 @@ const page = () => {
 
       {/* Upcoming events  */}
       <UpcomingSec />
+
+      {/* Explore section  */}
+      <ExploreSection />
     </>
   );
 };
