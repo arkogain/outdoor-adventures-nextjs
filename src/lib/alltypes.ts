@@ -10,4 +10,11 @@ export type eventsDetailstype = {
 };
 
 // Schema Type
-export type contactSchemaType = z.infer<typeof contactSchema>;
+export type ContactSchemaType = z.infer<typeof contactSchema>;
+
+export type ServiceCardType = {
+  id: string;
+  image: string;
+  headding: string;
+  paragraph: string;
+};

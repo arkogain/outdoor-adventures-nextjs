@@ -1,13 +1,47 @@
+import ServiceCard from "@/components/Cards/ServiceCard";
 import Serviceshero from "@/components/Hero/ServicesHero";
+import { ServiceCardType } from "@/lib/alltypes";
 import { Minus } from "lucide-react";
 import { Metadata } from "next";
 import Image from "next/image";
+import { any } from "zod/v4-mini";
 
 export const metadata: Metadata = {
   title: "Services || outdoor-adventures-nextjs",
 };
 
 const page = () => {
+  const cardItems = [
+    {
+      id: "01",
+      image: "backpacking",
+      headding: "Backpacking Trips",
+      paragraph: `Fuerat aestu carentem habentia spectent tonitrua mutastis locavit liberioris inistra possedit.
+`,
+    },
+    {
+      id: "02",
+      image: "family-hiking",
+      headding: "Backpacking Trips",
+      paragraph: `Fuerat aestu carentem habentia spectent tonitrua mutastis locavit liberioris inistra possedit.
+`,
+    },
+    {
+      id: "03",
+      image: "services-bg",
+      headding: "Backpacking Trips",
+      paragraph: `Fuerat aestu carentem habentia spectent tonitrua mutastis locavit liberioris inistra possedit.
+`,
+    },
+    {
+      id: "04",
+      image: "water-sports",
+      headding: "Backpacking Trips",
+      paragraph: `Fuerat aestu carentem habentia spectent tonitrua mutastis locavit liberioris inistra possedit.
+`,
+    },
+  ];
+
   return (
     <>
       <Serviceshero />
@@ -23,74 +57,19 @@ const page = () => {
             pulvinar.
           </div>
         </div>
-
         <div className="grid grid-cols-1 place-items-center gap-10 text-center md:grid-cols-2">
-          {/* 1st */}
-          <div className="flex w-full flex-col items-center gap-6 md:w-4/5 lg:w-4/6">
-            <Image
-              src={"/services/backpacking.jpg"}
-              alt="bagpacking image"
-              height={500}
-              width={500}
-              className="w-full rounded shadow-[10px_10px_0px_.3px_rgba(0,0,0,0.15)]"
-            />
-            <div className="text-lg font-bold lg:text-xl">
-              Backpacking Trips
-            </div>
-            <div className="">
-              Fuerat aestu carentem habentia spectent tonitrua mutastis locavit
-              liberioris inistra possedit.
-            </div>
-          </div>
-          {/* 2nd */}
-          <div className="flex w-full flex-col items-center gap-6 md:w-4/5 lg:w-4/6">
-            <Image
-              src={"/services/family-hiking.jpg"}
-              alt="bagpacking image"
-              height={500}
-              width={500}
-              className="w-full rounded shadow-[10px_10px_0px_.3px_rgba(0,0,0,0.15)]"
-            />
-            <div className="text-lg font-bold lg:text-xl">
-              Family Hiking Trips
-            </div>
-            <div className="">
-              Fuerat aestu carentem habentia spectent tonitrua mutastis locavit
-              liberioris inistra possedit.
-            </div>
-          </div>
-          {/* 3rd */}
-          <div className="flex w-full flex-col items-center gap-6 md:w-4/5 lg:w-4/6">
-            <Image
-              src={"/services/water-sports.jpg"}
-              alt="bagpacking image"
-              height={500}
-              width={500}
-              className="w-full rounded shadow-[10px_10px_0px_.3px_rgba(0,0,0,0.15)]"
-            />
-            <div className="text-lg font-bold lg:text-xl">Water Sports</div>
-            <div className="">
-              Fuerat aestu carentem habentia spectent tonitrua mutastis locavit
-              liberioris inistra possedit.
-            </div>
-          </div>
-          {/* 4th */}
-          <div className="flex w-full flex-col items-center gap-6 md:w-4/5 lg:w-4/6">
-            <Image
-              src={"/services/winter-sports.jpg"}
-              alt="bagpacking image"
-              height={500}
-              width={500}
-              className="w-full rounded shadow-[10px_10px_0px_.3px_rgba(0,0,0,0.15)]"
-            />
-            <div className="text-lg font-bold lg:text-xl">Winter Sports</div>
-            <div className="">
-              Fuerat aestu carentem habentia spectent tonitrua mutastis locavit
-              liberioris inistra possedit.
-            </div>
-          </div>
+          {cardItems.map((item) => {
+            return (
+              <ServiceCard
+                key={item.id}
+                headding={item.headding}
+                image={`/services/${item.image}.jpg`}
+                paragraph={item.paragraph}
+              />
+            );
+          })}
         </div>
-        {/* */}
+
         <div className="grid grid-cols-1 gap-10 space-y-5 py-12 md:grid-cols-2 lg:py-24 xl:px-40">
           <div className="space-y-5">
             <div className="text-xl font-bold sm:text-nowrap md:text-2xl lg:text-4xl">
