@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <>
       <div className="bg-repeat-none h-dvh w-full bg-[url('/home/hero-bg.jpg')] bg-cover bg-fixed bg-center">
-        <div className="flex h-dvh w-full flex-col items-center justify-center space-y-5 bg-black/65 text-center text-white">
+        <div className="flex h-dvh w-full flex-col items-center justify-center space-y-5 bg-black/65 px-6 text-center text-white">
           <div className="text-2xl font-semibold md:text-3xl">
             Explore the Colourful World
           </div>
