@@ -2,6 +2,7 @@ import NavSwitch from "@/components/NavBars/NavSwitch";
 import type { Metadata } from "next";
 import { ReactNode } from "react";
 import "./globals.css";
+import Footer from "@/components/Footersec/Footer";
 
 type RootLayoutProps = Readonly<{
   children: ReactNode;
@@ -18,6 +19,7 @@ const RootLayout = ({ children }: RootLayoutProps) => {
       <body>
         <NavSwitch />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );

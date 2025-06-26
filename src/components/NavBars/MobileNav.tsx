@@ -1,14 +1,13 @@
 import { Menu } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
 } from "../ui/sheet";
-import Image from "next/image";
-import Link from "next/link";
 
 const MobileNav = () => {
   return (
@@ -37,27 +36,27 @@ const MobileNav = () => {
           <div className="grid w-full place-items-center gap-4 font-semibold">
             <Link
               href={"/"}
-              className="hover:text-blue-500 dark:hover:text-fuchsia-500">
+              className="hover:text-red-400">
               Home
             </Link>
             <Link
               href={"/about"}
-              className="hover:text-blue-500 dark:hover:text-fuchsia-500">
+              className="hover:text-red-400">
               About
             </Link>
             <Link
               href={"/services"}
-              className="hover:text-blue-500 dark:hover:text-fuchsia-500">
+              className="hover:text-red-400">
               Services
             </Link>
             <Link
               href={"/projects"}
-              className="hover:text-blue-500 dark:hover:text-fuchsia-500">
+              className="hover:text-red-400">
               Projects
             </Link>
             <Link
               href={"/contact"}
-              className="hover:text-blue-500 dark:hover:text-fuchsia-500">
+              className="hover:text-red-400">
               Contact
             </Link>
           </div>
