@@ -11,7 +11,7 @@ const page = () => {
     <>
       <div className="bg-[url('/services/services-bg.jpg')] bg-cover bg-center bg-no-repeat">
         <div className="bg-black/30">
-          <div className="py-40 lg:py-64 text-center text-3xl font-bold text-white sm:text-4xl lg:text-6xl">
+          <div className="py-40 text-center text-3xl font-bold text-white sm:text-4xl lg:py-64 lg:text-6xl">
             Services
           </div>
         </div>
@@ -95,13 +95,13 @@ const page = () => {
           </div>
         </div>
         {/* */}
-        <div className="grid grid-cols-1 gap-10 space-y-5 px-40 py-12 md:grid-cols-2 lg:py-24">
+        <div className="px- grid grid-cols-1 gap-10 space-y-5 py-12 md:grid-cols-2 lg:py-24">
           <div className="space-y-5">
             <div className="text-xl font-bold sm:text-nowrap md:text-2xl lg:text-4xl">
               Why Outdoor Adventure
             </div>
             <div className="h-0.5 w-24 bg-rose-500"></div>
-            <div className="w-full text-sm md:w-4/5 lg:w-3/5 lg:text-base">
+            <div className="text-sm lg:text-base">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
               tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
             </div>
@@ -127,7 +127,7 @@ const page = () => {
               What You Get
             </div>
             <div className="h-0.5 w-24 bg-rose-500"></div>
-            <div className="w-full text-sm md:w-4/5 lg:w-3/5 lg:text-base">
+            <div className="text-sm lg:text-base">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
               tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
             </div>
