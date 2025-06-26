@@ -8,5 +8,3 @@ export const contactSchema = z.object({
   email: z.string().email({ message: "Please enter a valid email address" }),
   message: z.string(),
 });
-
-export type contactSchemaType = z.infer<typeof contactSchema>;
