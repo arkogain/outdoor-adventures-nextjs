@@ -15,7 +15,10 @@ export const metadata: Metadata = {
 
 const RootLayout = ({ children }: RootLayoutProps) => {
   return (
-    <html lang="en">
+    <html
+      lang="en"
+      className="scroll-smooth antialiased"
+      suppressHydrationWarning>
       <body>
         <NavSwitch />
         <main>{children}</main>
