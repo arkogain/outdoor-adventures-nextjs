@@ -3,7 +3,7 @@ import Image from "next/image";
 const OurMission = () => {
     return (
         <>
-          <div className=" py-12 px-6 mx-auto max-w-7xl grid grid-cols-1 place-items-center text-start gap-6 lg:grid-cols-2 lg:space-x-10">
+          <div className=" py-24 px-6 mx-auto max-w-7xl grid grid-cols-1 place-items-center text-start gap-6 lg:grid-cols-2 lg:space-x-10">
             <div className="space-y-4">
             <div className="font-bold text-5xl">Our Mission</div>
             <div className="border-b-3 border-red-500 px-6 md:px-8 w-[24]"></div>

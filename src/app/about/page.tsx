@@ -1,5 +1,6 @@
 import Hero from "@/components/About/Hero";
 import OurMission from "@/components/About/OurMission";
+import Value from "@/components/About/Value";
 import { Metadata } from "next";
 
 
@@ -14,6 +15,10 @@ const page = () => {
 
   {/* Mission section  */}
   <OurMission/>
+
+
+  {/* value section  */}
+  <Value/>
   </>;
 };
 
