@@ -95,7 +95,7 @@ const page = () => {
           </div>
         </div>
         {/* */}
-        <div className="grid grid-cols-1 gap-10 space-y-5 py-12 md:grid-cols-2 lg:py-24">
+        <div className="grid grid-cols-1 gap-10 space-y-5 px-40 py-12 md:grid-cols-2 lg:py-24">
           <div className="space-y-5">
             <div className="text-xl font-bold sm:text-nowrap md:text-2xl lg:text-4xl">
               Why Outdoor Adventure
