@@ -1,3 +1,4 @@
+import Serviceshero from "@/components/Hero/ServicesHero";
 import { Minus } from "lucide-react";
 import { Metadata } from "next";
 import Image from "next/image";
@@ -9,13 +10,8 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <>
-      <div className="bg-[url('/services/services-bg.jpg')] bg-cover bg-center bg-no-repeat">
-        <div className="bg-black/30">
-          <div className="py-40 text-center text-3xl font-bold text-white sm:text-4xl lg:py-64 lg:text-6xl">
-            Services
-          </div>
-        </div>
-      </div>
+      <Serviceshero />
+
       {/*  */}
       <div className="container mx-auto px-6">
         <div className="flex flex-col items-center gap-7 py-12 lg:py-24">
@@ -95,7 +91,7 @@ const page = () => {
           </div>
         </div>
         {/* */}
-        <div className="px- grid grid-cols-1 gap-10 space-y-5 py-12 md:grid-cols-2 lg:py-24">
+        <div className="grid grid-cols-1 gap-10 space-y-5 py-12 md:grid-cols-2 lg:py-24 xl:px-40">
           <div className="space-y-5">
             <div className="text-xl font-bold sm:text-nowrap md:text-2xl lg:text-4xl">
               Why Outdoor Adventure
