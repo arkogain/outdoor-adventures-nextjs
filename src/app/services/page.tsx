@@ -11,7 +11,7 @@ const page = () => {
     <>
       <div className="bg-[url('/services/services-bg.jpg')] bg-cover bg-center bg-no-repeat">
         <div className="bg-black/30">
-          <div className="py-44 text-center text-3xl font-bold text-white sm:text-4xl lg:text-6xl">
+          <div className="py-40 lg:py-64 text-center text-3xl font-bold text-white sm:text-4xl lg:text-6xl">
             Services
           </div>
         </div>
