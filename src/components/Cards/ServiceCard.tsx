@@ -17,7 +17,7 @@ const ServiceCard = () => {
                 width={500}
                 className="h-full w-full rounded shadow-[10px_10px_0px_.3px_rgba(0,0,0,0.15)]"
               />
-              <div className="text-lg font-bold lg:text-xl">
+              <div className="text-md font-bold lg:text-xl">
                 {item.headding}
               </div>
               <div className="">{item.paragraph}</div>
