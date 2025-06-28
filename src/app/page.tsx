@@ -1,5 +1,5 @@
 import ExploreSection from "@/components/HomePage/ExploreSection";
-import Hero from "@/components/HomePage/Hero";
+import Hero from "@/components/Hero/Hero";
 import Quote from "@/components/HomePage/Quote";
 import UpcomingSec from "@/components/HomePage/UpcomingSec";
 import { Metadata } from "next";

@@ -1,6 +1,5 @@
 import { MoveRight } from "lucide-react";
-import Link from "next/link";
-import { Button } from "../ui/button";
+import LinkBtn from "../LinkBtn";
 
 const ExploreSection = () => {
   return (
@@ -23,16 +22,9 @@ const ExploreSection = () => {
               </div>
 
               {/* Button  */}
-              {/* <Link
-                href={"#"}
-                className="">
-                <Button className="cursor-pointer rounded-full bg-red-500 px-10 py-6 text-lg text-white hover:bg-red-600">
-                  Learn More
-                  <div className="pt-0.5">
-                    <MoveRight />
-                  </div>
-                </Button>
-              </Link> */}
+              <LinkBtn className="text-background flex w-[185] gap-2">
+                LEARN MORE <MoveRight />{" "}
+              </LinkBtn>
             </div>
           </div>
         </div>

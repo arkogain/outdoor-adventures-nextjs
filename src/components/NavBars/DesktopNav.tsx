@@ -30,7 +30,7 @@ const DesktopNav = () => {
         Contact
       </Link>
 
-      <LinkBtn className="text-background">Take Action</LinkBtn>
+      <LinkBtn className="text-background">TAKE ACTION</LinkBtn>
     </>
   );
 };

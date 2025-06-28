@@ -3,22 +3,22 @@ import { MoveRight } from "lucide-react";
 import Image from "next/image";
 const UpcomingSec = () => {
   return (
-    <section className="mx-auto grid max-w-7xl place-items-center gap-3 px-6">
+    <section className="mx-auto grid max-w-7xl place-items-center gap-3 px-6 py-14">
       <div className="text-4xl font-bold">Upcoming Events</div>
 
       <div className="bg-radical-red h-0.5 w-16"></div>
 
-      <div className="grid grid-cols-1 gap-[15rem] lg:grid-cols-2">
+      <div className="grid grid-cols-1 gap-10 pt-10 lg:grid-cols-2 lg:gap-8">
         {/* 1st card */}
 
-        <div className="grid place-items-center text-center">
+        <div className="grid place-items-center gap-3 text-center">
           {/* iamges  */}
           <Image
             src={"/home/everest-camp.jpg"}
             height={400}
             width={400}
             alt="card-img"
-            className="h-auto w-auto rounded-md shadow-[12px_12px_0px_.5px_rgba(184,184,184,0.4)]"
+            className="h-[160] w-[250] rounded-md shadow-[12px_12px_0px_.5px_rgba(184,184,184,0.4)] sm:h-[250] sm:w-[420] lg:h-[320] lg:w-[500]"
           />
 
           {/* text heading  */}
@@ -32,24 +32,25 @@ const UpcomingSec = () => {
 
           {/* Button  */}
           <LinkBtn className="text-background flex gap-2">
-            LEARN MORE <MoveRight />{" "}
+            LEARN MORE <MoveRight />
           </LinkBtn>
         </div>
 
         {/* 2nd camp card */}
 
-        <div className="grid place-items-center text-center">
+        <div className="grid place-items-center gap-3 text-center">
           {/* iamges  */}
           <Image
-            src={"/home/everest-camp.jpg"}
+            src={"/home/walking-holidays.jpg"}
             height={400}
             width={400}
+            priority={false}
             alt="card-img"
-            className="h-auto w-auto rounded-md shadow-[12px_12px_0px_.5px_rgba(184,184,184,0.4)]"
+            className="h-[160] w-[250] rounded-md shadow-[12px_12px_0px_.5px_rgba(184,184,184,0.4)] sm:h-[250] sm:w-[420] lg:h-[320] lg:w-[500]"
           />
 
           {/* text heading  */}
-          <div className="pt-4 text-xl font-bold">Everest Camp Trek</div>
+          <div className="pt-4 text-xl font-bold">Walking Holidays</div>
 
           {/* text discription */}
           <div className="text-md text-black/80">

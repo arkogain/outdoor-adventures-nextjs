@@ -13,8 +13,8 @@ const Quote = () => {
         />
         <div className="space-y-4 text-center">
           <div className="text-2xl">
-            "Fuerat aestu carentem habentia spectent tonitrua mutastis locavit
-            liberioris."
+            Fuerat aestu carentem habentia spectent tonitrua mutastis locavit
+            liberioris.
           </div>
           <div className="text-xl">- Adam Sendler</div>
         </div>
