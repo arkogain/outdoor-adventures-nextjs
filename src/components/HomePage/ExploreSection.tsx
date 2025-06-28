@@ -5,14 +5,17 @@ import { Button } from "../ui/button";
 const ExploreSection = () => {
   return (
     <>
-      <div className="bg-repeat-none h-[70dvh] bg-[url('/home/section-bg.jpg')] bg-cover bg-fixed bg-center">
-        <div className="h-[70dvh] bg-black/65 text-white">
-          <div className="mx-auto flex h-[70dvh] max-w-7xl items-center justify-between px-6">
-            <div className="hidden w-full lg:block"></div>
-            <div className="space-y-6 text-center lg:text-start">
+      <section className="bg-[url('/home/section-bg.jpg')] bg-cover bg-fixed bg-center bg-no-repeat">
+        <div className="text-background bg-black/65 py-28">
+          <div className="mx-auto grid max-w-7xl grid-cols-1 px-6 lg:grid-cols-2">
+            <div className="hidden lg:block"></div>
+
+            <div className="space-y-6 text-start">
               <div className="text-4xl font-bold">Explore The World</div>
+
               {/* border section  */}
-              <div className="relative left-1/2 w-[24] -translate-x-1/2 border-b-3 border-red-500 px-6 md:px-8 lg:left-0 lg:translate-x-0"></div>
+              <div className="bg-radical-red h-0.5 w-16"></div>
+
               <div className="text-lg">
                 Diremit mundi mare undae nunc mixtam tanto sibi. Nubes unda
                 concordi. Fert his. Recessit mentes praecipites locum caligine
@@ -20,7 +23,7 @@ const ExploreSection = () => {
               </div>
 
               {/* Button  */}
-              <Link
+              {/* <Link
                 href={"#"}
                 className="">
                 <Button className="cursor-pointer rounded-full bg-red-500 px-10 py-6 text-lg text-white hover:bg-red-600">
@@ -29,11 +32,11 @@ const ExploreSection = () => {
                     <MoveRight />
                   </div>
                 </Button>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };
