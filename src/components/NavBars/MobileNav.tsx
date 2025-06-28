@@ -13,14 +13,14 @@ const MobileNav = () => {
   return (
     <>
       <Sheet>
-        <SheetTrigger className="bg-red-400 p-2">
+        <SheetTrigger className="bg-radical-red p-2">
           {/* triger icon  */}
           <Menu
             className="text-white"
             size={24}
           />
         </SheetTrigger>
-        <SheetContent className="">
+        <SheetContent>
           <SheetHeader>
             <SheetTitle className="flex justify-center border-b-2 pb-4">
               <Link href={"/"}>
@@ -33,7 +33,7 @@ const MobileNav = () => {
               </Link>
             </SheetTitle>
           </SheetHeader>
-          <div className="grid w-full place-items-center gap-4 font-semibold">
+          <div className="grid place-items-center gap-4 font-semibold">
             <Link
               href={"/"}
               className="hover:text-red-400">

@@ -1,39 +1,36 @@
 import Link from "next/link";
-import { Button } from "../ui/button";
+import LinkBtn from "../LinkBtn";
 
 const DesktopNav = () => {
   return (
     <>
       <Link
         href={"/"}
-        className="text-white hover:text-red-400">
+        className="hover:text-radical-red text-white">
         Home
       </Link>
       <Link
         href={"/about"}
-        className="text-white hover:text-red-400">
+        className="hover:text-radical-red text-white">
         About
       </Link>
       <Link
         href={"/services"}
-        className="text-white hover:text-red-400">
+        className="hover:text-radical-red text-white">
         Services
       </Link>
       <Link
         href={"/projects"}
-        className="text-white hover:text-red-400">
+        className="hover:text-radical-red text-white">
         Projects
       </Link>
       <Link
         href={"/contact"}
-        className="text-white hover:text-red-400">
+        className="hover:text-radical-red text-white">
         Contact
       </Link>
-      <Link href={"#"}>
-        <Button className="text-md cursor-pointer rounded-full bg-red-500 p-5 text-white hover:bg-red-600">
-          Take Action
-        </Button>
-      </Link>
+
+      <LinkBtn className="text-background">Take Action</LinkBtn>
     </>
   );
 };
