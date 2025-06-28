@@ -1,4 +1,4 @@
-import NavSwitch from "@/components/NavBars/NavSwitch";
+import Header from "@/components/NavBars/Header";
 import type { Metadata } from "next";
 import { ReactNode } from "react";
 import "./globals.css";
@@ -20,7 +20,7 @@ const RootLayout = ({ children }: RootLayoutProps) => {
       className="scroll-smooth antialiased"
       suppressHydrationWarning>
       <body>
-        <NavSwitch />
+        <Header />
         <main>{children}</main>
         <Footer />
       </body>
