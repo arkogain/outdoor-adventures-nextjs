@@ -11,12 +11,12 @@ const Quote = () => {
           alt="Quote-Image"
           className="h-16 w-20 lg:absolute lg:left-6"
         />
-        <div className="space-y-4 text-center">
-          <div className="text-2xl">
+        <div className="font-secondary space-y-4 text-center text-black/75">
+          <div className="text-[20px]">
             Fuerat aestu carentem habentia spectent tonitrua mutastis locavit
             liberioris.
           </div>
-          <div className="text-xl">- Adam Sendler</div>
+          <div className="text-[16px]">- Adam Sendler</div>
         </div>
       </div>
     </section>

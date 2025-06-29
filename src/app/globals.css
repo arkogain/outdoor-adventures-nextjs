@@ -6,6 +6,8 @@
 @theme {
   --color-radical-red: #fb2056;
   --color-hover-red: #da1c4b;
+  --font-primary: --font-montserrat, sans-serif;
+  --font-secondary: --font-noto-sans, sans-serif;
 }
 
 @theme inline {
