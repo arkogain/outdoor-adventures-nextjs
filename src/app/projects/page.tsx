@@ -1,6 +1,7 @@
 import Slider1 from "@/components/Projects-Slide/Slider1";
 import Slider2 from "@/components/Projects-Slide/Slider2";
 import Slider3 from "@/components/Projects-Slide/Slider3";
+
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
