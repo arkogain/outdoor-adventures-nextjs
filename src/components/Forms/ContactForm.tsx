@@ -1,5 +1,4 @@
 "use client";
-
 import {
   Form,
   FormControl,
@@ -9,14 +8,14 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { contactSchema, contactSchemaType } from "@/lib/contactschema";
+import { ContactSchemaType } from "@/lib/alltypes";
+import { contactSchema } from "@/lib/contactschema";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
-import { z } from "zod";
 import { Button } from "../ui/button";
 
 const ContactForm = () => {
-  const contactForm = useForm<z.infer<typeof contactSchema>>({
+  const contactForm = useForm<ContactSchemaType>({
     resolver: zodResolver(contactSchema),
     defaultValues: {
       name: "",
@@ -26,7 +25,7 @@ const ContactForm = () => {
     mode: "all",
   });
 
-  const handleContactSubmit = (value: contactSchemaType) => {
+  const handleContactSubmit = (value: ContactSchemaType) => {
     console.log(value);
   };
   return (

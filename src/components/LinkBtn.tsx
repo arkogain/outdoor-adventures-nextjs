@@ -12,7 +12,7 @@ const LinkBtn = ({ children, className, ...props }: LinkBtnPropsType) => {
     <Link
       href={"#"}
       className={cn(
-        `bg-radical-red rounded-full px-6 py-2 font-bold`,
+        `bg-radical-red font-secondary flex items-center gap-2 rounded-full px-[40px] py-[16px] text-[14px] font-bold text-white`,
         className,
       )}
       {...props}>

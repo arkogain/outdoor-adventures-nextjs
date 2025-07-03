@@ -28,7 +28,8 @@ const MobileNav = () => {
                   src={"/temporary-logo.png"}
                   alt="Logo"
                   width={100}
-                  height={50}
+                  height={100}
+                  className="h-8 w-30"
                 />
               </Link>
             </SheetTitle>

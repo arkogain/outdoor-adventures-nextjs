@@ -3,7 +3,7 @@ import LinkBtn from "../LinkBtn";
 const Hero = () => {
   return (
     <>
-      <div className="bg-[url('/home/hero-bg.jpg')] bg-cover bg-fixed bg-center bg-no-repeat">
+      <div className="font-primary bg-[url('/home/hero-bg.jpg')] bg-cover bg-fixed bg-center bg-no-repeat">
         <div className="text-background grid place-items-center gap-1 bg-black/65 py-28 lg:py-44">
           <div className="text-xl font-bold lg:text-2xl">
             Explore the Colourful World
