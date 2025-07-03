@@ -10,6 +10,9 @@
   --font-secondary: --font-noto-sans, sans-serif;
 }
 
+.mySwiper .swiper-pagination {
+  @apply relative !bottom-0 mt-6;
+}
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -51,6 +54,7 @@
 }
 
 :root {
+  --swiper-pagination-color: #fb2056;
   --radius: 0.625rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.129 0.042 264.695);
