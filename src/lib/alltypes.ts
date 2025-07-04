@@ -15,3 +15,18 @@ export type ServiceCardType = {
 export type ServicePageTextsType = {
   text: string;
 };
+
+export type slidersectiontype = {
+  id: number;
+  heading: string;
+  title: string;
+  discriptions: string;
+  image1: string;
+  image2: string;
+  image3: string;
+  image4: string;
+  alt1: string;
+  alt2: string;
+  alt3: string;
+  alt4: string;
+};
