@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { ReactNode } from "react";
 import "./globals.css";
 import Footer from "@/components/Footersec/Footer";
+import { Slide, ToastContainer } from "react-toastify";
 
 type RootLayoutProps = Readonly<{
   children: ReactNode;
@@ -20,6 +21,19 @@ const RootLayout = ({ children }: RootLayoutProps) => {
       className="scroll-smooth antialiased"
       suppressHydrationWarning>
       <body>
+        <ToastContainer
+          position="top-center"
+          autoClose={1500}
+          hideProgressBar
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover={false}
+          theme="light"
+          transition={Slide}
+        />
         <Header />
         <main>{children}</main>
         <Footer />

@@ -12,7 +12,8 @@ import { ContactSchemaType } from "@/lib/alltypes";
 import { contactSchema } from "@/lib/contactschema";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
-import LinkBtn from "../LinkBtn";
+import { toast } from "react-toastify";
+import { Button } from "../ui/button";
 
 const ContactForm = () => {
   const contactForm = useForm<ContactSchemaType>({
@@ -27,6 +28,8 @@ const ContactForm = () => {
 
   const handleContactSubmit = (value: ContactSchemaType) => {
     console.log(value);
+    contactForm.reset();
+    toast("Message send successfully");
   };
   return (
     <>
@@ -80,7 +83,7 @@ const ContactForm = () => {
                 <FormItem>
                   <FormControl>
                     <Textarea
-                      placeholder="Your Name"
+                      placeholder="Message"
                       {...field}
                       className="h-28 rounded-sm border-dotted border-black/50 px-3 !text-lg focus:border-black focus:shadow-none focus-visible:border-black focus-visible:ring-0"
                     />
@@ -90,9 +93,9 @@ const ContactForm = () => {
                 </FormItem>
               )}
             />
-            <LinkBtn className="text-background px-10 py-3">
+            <Button className="text-background bg-radical-red hover:bg-hover-red px-10 py-3">
               SEND MESSAGE
-            </LinkBtn>
+            </Button>
           </form>
         </Form>
       </section>
