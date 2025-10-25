@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Outdoor Adventures – Next.js
 
-## Getting Started
 
-First, run the development server:
+## 🌟 Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Outdoor Adventures** is a static website developed using Next.js, Tailwind CSS, and TypeScript. This project was a collaborative effort aimed at enhancing our design skills and understanding of professional web development workflows. Through this endeavor, we focused on improving our teamwork, version control practices, and adherence to industry standards.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🧑‍🤝‍🧑 Team Members
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Arko Gain](https://github.com/arkogain)
+- [Abhijit Saha](https://github.com/MrAbhijitSaha)
+- [Shankar Dutta](https://github.com/ShankarDutta)
+- [Manasi Sadhu](https://github.com/manasisadhu)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Technologies Used
 
-## Learn More
+- **Frontend**: Next.js, Tailwind CSS, TypeScript
+- **UI Components**: shadcn Ui
 
-To learn more about Next.js, take a look at the following resources:
+## 📈 Project Goals
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Skill Enhancement**: Focused on upgrading our design skills and understanding of professional web development structures.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Team Collaboration**: Emphasized effective communication and collaboration among team members.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Version Control Mastery**: Gained hands-on experience with Git and GitHub workflows, including branching, pull requests, and code reviews.
